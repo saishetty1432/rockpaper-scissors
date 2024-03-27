@@ -1,0 +1,103 @@
+body{
+    background-color: #151515;
+    color: white;
+    font-family: Arial ;
+  }
+  .title{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .btn-img{
+    
+    height: 50px;
+    
+
+
+  }
+  .move-btn{
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    border: solid 3px white;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .results{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score{
+    margin-top: 50px;
+  }
+  .reset-score-button,.auto-play-button{
+    background-color:none;
+    border:none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:600px) {
+
+    body{
+      /* background-color: #151515;
+      color: white;
+      font-family: Arial ; */
+    }
+    .title{
+      /* font-size: 2rem;
+     
+      font-weight: bold; */
+      text-align: center;
+    }
+    .btn-img{
+      
+      height: 50px;
+      
+  
+  
+    }
+    .allbuttons{
+      display: flex;
+      justify-content: space-around;
+    }
+    .move-btn{
+      /* background-color: transparent; */
+      width: 25%;
+      /* height: 120px; */
+      text-align: center;
+      
+      /* border: solid 3px white;
+      border-radius: 60px;
+      margin-right: 10px;
+      cursor: pointer; */
+    }
+    .results{
+      /* font-size: 2rem;
+      font-weight: bold; */
+      text-align: center;
+      margin-top: 50px;
+      
+    }
+    .js-result{
+      text-align: center;
+    }
+    .score{
+      margin-top: 50px;
+      text-align: center;
+    }
+    .reset-score-button,.auto-play-button{
+      /* background-color:none; */
+      margin-left: 50px;
+      margin-top: 30px;
+      text-align: center;
+      /* border:none;
+      font-size: 15px;
+      padding: 8px 15px;
+      cursor: pointer; */
+    }
+
+    
+  }
